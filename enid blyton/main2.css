@@ -1,0 +1,162 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Covered+By+Your+Grace&family=Lato:ital,wght@1,100&family=Nerko+One&family=Rubik+Glitch&family=Satisfy&family=Shadows+Into+Light&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Covered+By+Your+Grace&family=Lato:ital,wght@1,100&family=Lobster&family=Nerko+One&family=Rubik+Glitch&family=Satisfy&family=Shadows+Into+Light&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Covered+By+Your+Grace&family=Lato:ital,wght@1,100&family=Lobster&family=Nerko+One&family=Rubik+Glitch&family=Satisfy&family=Shadows+Into+Light&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat&family=Covered+By+Your+Grace&family=Lato:ital,wght@1,100&family=Lobster&family=Nerko+One&family=Rubik+Glitch&family=Satisfy&family=Shadows+Into+Light&display=swap');
+  .event-date{
+    font-weight: bold;
+}
+body{
+    background-color: beige; 
+}
+#container{
+    margin:auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: white;
+}
+#header{
+    width: 1100px;
+    height: 350px;
+    background-color: rgb(226, 226, 178); 
+    background-image:url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/11/12/11/enid-blyton.jpg?width=1200);
+    background-size:cover;
+    margin-right:auto;
+    margin-left: auto;
+
+}
+ #topic{
+height: 60px;
+}
+p span{
+    padding: 12px;
+    position: relative;
+    font-family:lobster ;
+    font-size:50px;
+    color: rgb(43, 2, 82);
+}
+#topic-text{
+    text-align: center;
+    font-family:Lobster;
+}
+#sub-head{
+    background:url(https://www.enidblytonsociety.co.uk/images/blyton-masthead.jpg) no-repeat;
+    position:relative;
+    top:15px;
+    left:160px;
+}
+.sub-sec-head{
+    line-height: 120 px;
+    padding-left: 30px;
+    font-size: 50px;
+    font-family:satisfy ;
+    color:black;
+    font-weight:bold;
+    width: 760px;
+    height: 100px;
+}
+#content{
+    width:1000px;
+    height:1860px;
+    margin-right:auto;
+    margin-left:auto;
+    float:left;
+    background-color: rgb(217, 238, 238);
+}
+#main-content{
+    height: 750px;
+    width: 800px;
+    position: relative;
+    top: 25px;
+    left:2px;
+    font-family: Caveat;  
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-year{
+    border-top:2px solid rgb(214, 165, 214);
+    margin-top:0;
+    
+}
+.event-date{
+    width: 100px;
+    height:20px;
+    text-align:center;
+    line-height: 28px;
+    float: none;
+    font-size: 14px;
+    border-top:1px solid rgb(129, 46, 129);
+    margin:-1px 0 0 0;
+    padding:4px 5px 6px;
+    clear: left;
+    font-weight: bold;
+}
+.event-des{
+    width:690px;
+    background:rgb(194, 163, 174);
+    float:left;
+    margin:0;
+    padding:8px 12px 8px 8px;
+    border-top: 1px bold rgb(10, 87, 7); 
+    clear:left;
+    font-size: 20px; 
+    
+}
+
+
+
+.event-des-nth{
+    border-bottom: 1px solid rgb(4, 4, 100);
+}
+#side-content{
+    height: 990px;
+    width: 400px;
+    background-color: rgb(165, 167, 167);
+    float:right;
+    position:680px;
+    bottom: auto;
+    top: auto;
+}
+#photo{
+    width:270px;
+    height:160px;
+    position: relative;
+    top: 7px;
+    float:auto;
+    border-radius:30%;    
+    padding-bottom:20px;
+}
+.th, .info td{
+ vertical-align:top;
+ border: 0;
+ border-bottom:1px solid rgb(252, 242, 245);
+ padding: 0.2em;
+ font-family: cursive;
+}
+#enb{
+    font-family:cursive;
+     font-weight: bold;
+     font-size: 18px;   
+}
+#footer{
+    background-color: rgb(248, 167, 137);
+    height:240px;
+    width: 570px;
+    text-align: center;
+}
+#quote{
+    font-family:lobster;
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+    left: 9px;
+}
+a{
+    color:rgb(49, 7, 88);
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+    color: darkred;
+}
+h4{ text-align: center;}
